@@ -1,1 +1,1 @@
-includes: ['layer:basic', 'layer:layers/go-binary', 'interface:http']
+includes: ['layer:basic', 'layer:go-binary', 'interface:http']
