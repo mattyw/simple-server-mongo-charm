@@ -1,0 +1,7 @@
+name: simple-server
+summary: A simpler go webserver
+maintainer: MattyW <gh@mattyw.net>
+description: A simple charm that starts a go webserver
+provides:
+  website:
+    interface: http
