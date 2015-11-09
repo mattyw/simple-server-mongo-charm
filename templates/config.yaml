@@ -1,0 +1,2 @@
+mongo-url: {{db.hostname()}}:{{db.port()}}
+

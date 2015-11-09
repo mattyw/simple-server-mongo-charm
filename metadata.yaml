@@ -1,7 +1,11 @@
-name: simple-server
-summary: A simpler go webserver
+name: simple-server-mongo
+summary: A simpler go webserver that requires mongo
 maintainer: MattyW <gh@mattyw.net>
 description: A simple charm that starts a go webserver
 provides:
   website:
     interface: http
+requires:
+  database:
+    interface: mongodb
+

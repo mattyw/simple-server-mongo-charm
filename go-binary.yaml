@@ -1,2 +1,2 @@
 binary: server
-args: 
+args: /etc/myserver/config.yaml

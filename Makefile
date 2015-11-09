@@ -7,6 +7,6 @@ compose:
 
 
 clean:
-	$(RM) -r $(PROJECT_ROOT)/trusty/simple-server
+	$(RM) -r $(PROJECT_ROOT)/trusty/simple-server-mongo
 
 .PHONY: all compose clean
